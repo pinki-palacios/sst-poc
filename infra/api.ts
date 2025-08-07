@@ -26,6 +26,7 @@ const params = new sst.Linkable("Params", {
 export const myApi = new sst.aws.Function("MyApi", {
   url: {
     router: {
+      domain: baseUrl,
       instance: router,
       path: `/api/${$app.stage}`,
     },
