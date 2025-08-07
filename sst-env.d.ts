@@ -5,6 +5,15 @@
 
 declare module "sst" {
   export interface Resource {
+    "MyBucket": {
+      "name": string
+      "type": "sst.aws.Bucket"
+    }
+    "Params": {
+      "STAGE": string
+      "appName": string
+      "type": "sst.sst.Linkable"
+    }
   }
 }
 /// <reference path="sst-env.d.ts" />

@@ -9,7 +9,7 @@ const router = new sst.aws.Router("MyRouter", {
   domain: {
     name: baseUrl,
     dns: false,
-    cert: "arn:aws:acm:sa-east-1:251724005896:certificate/db573a21-c48e-46d1-8182-c90d2f207bd9",
+    cert: "arn:aws:acm:us-east-1:251724005896:certificate/402a6ccc-efd8-4202-b231-02bd571492d9",
   },
 });
 
