@@ -10,6 +10,6 @@ export const handler: Handler = async (_event) => {
     statusCode: 200,
     body: `${Example.hello()} Linked to ${Resource.MyBucket.name}. STAGE is ${
       Resource.App.stage
-    } and appName is ${Resource.Params.appName}.`,
+    } and appName is ${Resource.Params.appName}..`,
   };
 };
