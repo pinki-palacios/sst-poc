@@ -11,7 +11,6 @@ const router = new sst.aws.Router("MyRouter", {
       ? routerDomain
       : {
           name: routerDomain,
-          aliases: [`www.${baseUrl}`],
           dns: false,
           cert: "arn:aws:acm:us-east-1:251724005896:certificate/c3a03e95-4424-4915-adad-d73b4bb56a2c",
         },
